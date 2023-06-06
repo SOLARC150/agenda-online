@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1300px;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+
+header img {
+    height: 30px;
+}
+
+.registro {
+    display: grid;
+    padding-top: 26px;
+}
+
+.registro input,
+button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right:500px;
+    margin-left:500px;
+}
+
+.registro button {
+    padding: 15px;
+    background-color: green;
+}
+
+table {
+    padding-top: 10px;
+    padding-right: 100px;
+}
+
+tbody tr {
+    text-align: center;
+}
