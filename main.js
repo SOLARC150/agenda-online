@@ -12,6 +12,8 @@ form.addEventListener('submit', function(e){
 
     if(!numeros.includes(parseInt(inputNumero.value))){
         atualizaContato();
+        inputNome.value = '';
+        inputNumero.value = '';
     }else {
         alert("já Existe")
     }
